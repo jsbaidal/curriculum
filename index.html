@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="Stylesheets/style.css">
+    <meta name="keywords" content="proyecto, aprendizaje, cv">
+    <meta name="description" content="Un proyecto para reforzar el aprendizaje">
+    <meta name="author" content="Jose Baidal">
 </head>
-
 <body>
     <header>
-    <h1> Sebastián Baidal</h1>
-    <h2>Web Developer</h2>
-    
-    <hr size = "2px" width= "35%" align="left" color = "black" />
+        <h1> Sebastián Baidal</h1>
+        <h2>Web Developer</h2>
+    </header>
+
     <nav>
         <ul>
-            <li><a href="#Informacion personal" > Informacion personal </a></li>
-            <li><a href="#Sobre mi"> Sobre mí</a></li>
+            <li><a href="#Informacionpersonal">Informacion personal</a></li>
+            <li><a href="#Sobremi">Sobre mí</a></li>
             <li><a href="#Habilidades">Habilidades</a></li>
             <li><a href="#Hobbies">Hobbies</a></li>
+            <li><a href="#Contactame">Contáctame</a></li>
         </ul>
     </nav>
-    </header>
-   
-    
-    <hr size = "2px" width= "35%" align="left" color = "black" />
-     
-        <div>
+
+    <main class="grid-container">
         <section id="Informacionpersonal">
-            <h2> Informacion personal</h2>
+            <h2>Informacion personal</h2>
             <ul>
-                <li>Estudiante de Espol</li> 
-                <li>Cursando carrera de Computacion</li> 
-                <li>Correo : <a href="mailto:jsbaidal@espol.edu.ec"> jsbaidal@espol.edu.ec </a></li>
+                <li>Estudiante de Espol</li>
+                <li>Cursando carrera de Computacion</li>
+                <li>Correo: <a href="mailto:jsbaidal@espol.edu.ec">jsbaidal@espol.edu.ec</a></li>
             </ul>
-            
         </section>
-        </div>
-        
+    
         <section id="Sobremi">
-            
             <h2>Sobre mí</h2>
             <div>
                 Mi objetivo profesional es seguir perfeccionando mis habilidades y 
@@ -51,32 +46,44 @@
             </div>
         </section>
     
-
         <section id="Habilidades">
-            <h2> Habilidades</h2>
+            <h2>Habilidades</h2>
             <ul>
                 <li>Python</li>
                 <li>Java</li>
                 <li>Control de versiones a traves de Git</li>
-                <li>Gestion de Bases de datos y Queries con SQl</li>
+                <li>Gestion de Bases de datos y Queries con SQL</li>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/056/036/393/large/cozy-oni-cozyoninight.jpg?1668322408" width="500" height="auto" alt="Coding">
             </ul>
         </section>
-
+    
         <section id="Hobbies">
-            <h2> Hobbies </h2>
+            <h2>Hobbies</h2>
             <ul>
-                <li>Leer (Comics,novelas,articulos científicos....)</li>
-                <li>Hacer deporte , principalmente fútbol</li>
+                <li>Leer (Comics, novelas, artículos científicos...)</li>
+                <li>Hacer deporte, principalmente fútbol</li>
                 <li>Programar proyectos personales</li>
-                <li>Jugar videojuegos (Fifa,COD,,Valorant)</li>
+                <li>Jugar videojuegos (Fifa, COD, Valorant)</li>
             </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XhP3Xh4LMA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-
-        
+    
+        <section id="Contactame">
+            <h2>Contáctame</h2>
+            <form action="#" method="post">
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <h3>Ubicación de Oficina</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63733.80873178069!2d-79.92356190248995!3d-2.170997262086872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e3cf1e6b85f%3A0xe8a13c13b2af6cb3!2sGuayaquil%2C%20Ecuador!5e0!3m2!1sen!2sus!4v1688897200543!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
 
     <footer>
-        Instagram : <a href="https://instagram.com/sebastianbz8">sebastianbz8</a>
+        Instagram: <a href="https://instagram.com/sebastianbz8">sebastianbz8</a>
     </footer>
 </body>
-
 </html>
